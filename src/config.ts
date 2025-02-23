@@ -4,16 +4,16 @@ const env = config().parsed;
 export const appConfig = {
   dess: {
     auth: {
-      username: env.DESS_AUTH_USERNAME,
-      password: env.DESS_AUTH_PASSWORD || null,
+      username: env.paris.kokkinos@gmail.com,
+      password: env.OdW4xxKy || null,
       passwordHash: env.DESS_AUTH_PASSWORD_HASH || null,
     },
     device: {
-      pn: env.DESS_DEVICE_PN,
-      sn: env.DESS_DEVICE_SN,
+      pn: env.Q0033470212699,
+      sn: env.Q0033470212699191005,
       devcode: env.DESS_DEVICE_DEVCODE,
       devaddress: env.DESS_DEVICE_DEVADDR,
-      batteryVoltage: Number(env.DEVICE_BATTERY_VOLTAGE ?? '48'),
+      batteryVoltage: 24 (env.DEVICE_BATTERY_VOLTAGE ?? '48'),
     },
   },
 };
